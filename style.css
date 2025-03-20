@@ -1,0 +1,150 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 15px;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 30% 70%; /* Filtry zajmują 30%, reszta 70% */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+
+.sorting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dostosowanie szerokości książek */
+    gap: 20px;
+    justify-content: start;
+}
+
+.book-item {
+    background: white;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.book-item p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.book-item .author {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.book-item .price {
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.buy-button, .submit-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover, .submit-button:hover {
+    background-color: #218838;
+}
+
+.add-book-link {
+    text-decoration: none;
+    justify-self: center;
+}
+
+.add-book {
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-book:hover {
+    background-color: #005fa3;
+}
+
+.add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+}
