@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>BookScape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <h1 class="site-title">BookScape</h1>
+    <div class="buttons">
+        <button class="login">Zaloguj</button>
+        <button class="cart">Koszyk</button>
+    </div>
+</header>
+
+<main class="main-content">
+    <section class="filters">
+        <h2>Filtry</h2>
+        <label><input type="checkbox" checked> Twarda okładka</label>
+        <label><input type="checkbox" checked> Miękka okładka</label>
+        <label><input type="checkbox" checked> Ebook </label>
+        <label>Cena od: <input type="number" min="0"></label>
+        <label>Cena do: <input type="number" min="1"></label>
+        <label>Autor: <input type="text"></label>
+        <label>Do stron: <input type="number" min="10"></label>
+        <label>Słowo w opisie: <input type="text"></label>
+    </section>
+
+    <section class="content">
+        <section class="sorting">
+            <h2>Sortowanie</h2>
+            <label>
+                <select>
+                    <option>Cena rosnąco</option>
+                    <option>Cena malejąco</option>
+                    <option>Popularne</option>
+                    <option>Od najnowszych</option>
+                </select>
+            </label>
+        </section>
+
+        <section class="books">
+            <h2>Lista Książek</h2>
+            <ul class="book-list">
+                <li class="book-item">
+                    <p class="title">Mały Książe</p>
+                    <p class="author">Autor: Antoine de Saint-Exupéry</p>
+                    <p class="price">Cena: 39.99 zł</p>
+                    <button class="buy-button">Dodaj do koszyka</button>
+                </li>
+                <li class="book-item">
+                    <p class="title">Władca Pierścieni</p>
+                    <p class="author">Autor: J.R.R. Tolkien</p>
+                    <p class="price">Cena: 79.99 zł</p>
+                    <button class="buy-button">Dodaj do koszyka</button>
+                </li>
+                <li class="book-item">
+                    <p class="title">Kod Leonarda da Vinci</p>
+                    <p class="author">Autor: Dan Brown</p>
+                    <p class="price">Cena: 99.99 zł</p>
+                    <button class="buy-button">Dodaj do koszyka</button>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    <a href="index2.html" class="add-book-link"><button class="add-book">Dodaj nową pozycję</button></a>
+</main>
+</body>
+</html>
