@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+#undoBtn {
+    min-width: 150px;
+}
+
+.modal-content {
+    border-radius: 12px;
+}
+
+.list-header {
+    cursor: pointer;
+    background-color: #dee2e6;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+#addListForm {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#listsContainer ul {
+    margin-top: 10px;
+}
