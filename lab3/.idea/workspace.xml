@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e2402b-1ac0-4995-ba7e-f9b6e01d4dc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contexts/AuthContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Contexts/AuthPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGRcY2xpZW50.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGRcY2xpZW50.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Contexts/BooksContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Contexts/BooksContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/new.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/new.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-router.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-router.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +55,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.home.jsx.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/48661/source/repos/lab3_2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +69,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\48661\Desktop\Studia_ITE\Semestr_6\PIWo\lab3\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +93,10 @@
       <workItem from="1746408158777" duration="166000" />
       <workItem from="1746408486221" duration="57000" />
       <workItem from="1746408754074" duration="294000" />
+      <workItem from="1746428920499" duration="593000" />
+      <workItem from="1746430152406" duration="518000" />
+      <workItem from="1749856266707" duration="7383000" />
+      <workItem from="1749901516905" duration="236000" />
     </task>
     <servers />
   </component>

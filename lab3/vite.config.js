@@ -1,16 +1,9 @@
-import { reactRouter } from "@react-router/dev/vite";
-import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
-import path from "path";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [reactRouter(), tailwindcss()],
-  resolve: {
-    alias: {
-      '/app': path.resolve(__dirname, 'app')
-    }
-  },
+  plugins: [react()],
   build: {
-    outDir: 'build/client'
+    outDir: "build/client"
   }
 });
